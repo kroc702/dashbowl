@@ -1,5 +1,5 @@
 # dashbowl
-alternative rules for fantasy football boardgame
+alternative rules for fantasy football boardgame. published here https://kroc702.github.io/dashbowl/
 
 Un jeu entre blood bowl et blitz bowl avec les idées suivantes :
 -	prise en main rapide mais richesse des situations.
