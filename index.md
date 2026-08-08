@@ -1,4 +1,4 @@
-# dash bowl
+# introduction
 Un jeu entre blood bowl et blitz bowl avec les idées suivantes :
 -	prise en main rapide mais richesse des situations.
 Peu de règle qui gèrent uniquement les actions courantes. Les autres actions sont gérées par un système de carte comme pour blitz bowl.
