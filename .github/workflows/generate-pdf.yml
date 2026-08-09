@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y weasyprint
-          pip install markdown
+          pip install markdown weasyprint
 
       - name: Generate PDF with Python script
         run: python .github/scripts/build_pdf.py
