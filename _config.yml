@@ -1,3 +1,30 @@
-theme: jekyll-theme-dinky
-title: Dash bowl homepage
-description:
+
+###########
+# site.url, site.title
+
+title: 'DASH BOWL'
+url: 'https://kroc702.github.io/dashbowl/'
+
+collections:
+  montest:
+    output: true
+
+plugins:
+- jekyll-sitemap
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+exclude:
+- README.md
+- preview.bat
+- Gemfile
+
+safe: true
+lsi: false
