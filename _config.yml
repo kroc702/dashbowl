@@ -3,11 +3,8 @@
 # site.url, site.title
 
 title: 'DASH BOWL'
-url: 'https://kroc702.github.io/dashbowl/'
-
-collections:
-  montest:
-    output: true
+url: 'https://kroc702.github.io/dashbowl'
+baseurl: '/dashbowl'
 
 plugins:
 - jekyll-sitemap

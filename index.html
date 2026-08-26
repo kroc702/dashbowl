@@ -8,7 +8,7 @@ lang: fr
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashbowl — Fantasy Football sur Grille Hexagonale</title>
   <meta name="description" content="Dashbowl est un jeu de plateau de fantasy football nerveux, rapide et tactique sur grille hexagonale. Téléchargez le kit de playtest et rejoignez la communauté.">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="746b4fe2-d985-4d50-ab6b-f766019c41f4"></script>
 </head>
 <body>
@@ -16,13 +16,12 @@ lang: fr
   <!-- Navigation Bar -->
   <nav>
     <div class="nav-container">
-      <a href="#" class="nav-brand">DASH<img src="images/ball.png" alt="Dashbowl" class="nav-ball"><span>BOWL</span></a>
+      <a href="#" class="nav-brand">DASH<img src="{{ site.baseurl }}/images/ball.png" alt="Dashbowl" class="nav-ball"><span>BOWL</span></a>
       <ul class="nav-links">
-        <li><a href="rules.html">📖 Règles</a></li>
-        <li><a href="download/">🎲 Tester</a></li>
-        <li><a href="#join">💬 Rejoindre</a></li>
-        <li><a href="#feedback">📝 Feedback</a></li>
-        <li><a href="download/" class="btn-nav">Kit de jeu</a></li>
+        <li><a href="{{ site.baseurl }}/rules.html">Règles</a></li>
+        <li><a href="{{ site.baseurl }}/download/">Tester</a></li>
+        <li><a href="https://discord.gg/kH43mSsqZ">Discord</a></li>
+        <li><a href="#feedback">Feedback</a></li>
       </ul>
     </div>
   </nav>
@@ -31,7 +30,7 @@ lang: fr
   <header class="hero-banner">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1 class="hero-title">DASH<img src="images/ball.png" alt="Dashbowl" class="title-ball"><span>BOWL</span></h1>
+      <h1 class="hero-title">DASH<img src="{{ site.baseurl }}/images/ball.png" alt="Dashbowl" class="title-ball"><span>BOWL</span></h1>
       <p class="hero-subtitle">
         Jeu de figurine sur le theme du football fantastique.
         Règles simples et communautaires.
@@ -40,17 +39,17 @@ lang: fr
 
       <!-- 3 Liens Importants : Tester, Join, Feedback -->
       <div class="hero-actions">
-        <a href="download/" class="btn-action btn-tester">
-          <span>🎲</span>
+        <a href="{{ site.baseurl }}/download/" class="btn-action btn-tester">
+          <img src="{{ site.baseurl }}/images/files.png"/>
           <span>Tester le jeu</span>
         </a>
-        <a href="#join" class="btn-action btn-join">
-          <span>💬</span>
-          <span>Join / Discord</span>
+        <a href="https://discord.gg/kH43mSsqZ" class="btn-action btn-join">
+          <img src="{{ site.baseurl }}/images/discord-white-icon.png"/>
+          <span>Join discord</span>
         </a>
         <a href="#feedback" class="btn-action btn-feedback">
-          <span>📝</span>
-          <span>Donner du Feedback</span>
+          <img src="{{ site.baseurl }}/images/puzzle.png"/>
+          <span>Contribuer</span>
         </a>
       </div>
     </div>
@@ -62,57 +61,34 @@ lang: fr
     <!-- Concept & Caractéristiques -->
     <section class="section-block">
       <div class="section-header">
-        <span class="section-tag">Concept de jeu</span>
         <h2 class="section-title">Pourquoi Dashbowl ?</h2>
+        Car il existe une place pour des règles entre blood bowl et blitz bowl.
       </div>
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">⚡</div>
-          <h3>Parties de 30-45 min</h3>
-          <p>Une prise en main instantanée avec des règles épurées. Des équipes réduites et une seule mi-temps sous haute tension.</p>
+          <h3>Parties rapide et nerveuse</h3>
+          <p>Des règles épurées pour des matchs sans temps mort (~60 min). Le ballon circule vite.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">⬡</div>
-          <h3>Grille Hexagonale</h3>
-          <p>Fini les angles morts ! Le quadrillage hexagonal libère les lignes de course, de passe et offre un placement défensif stratégique.</p>
+          <h3>Centré sur les touchdown</h3>
+          <p>Seule les touchdown raportent des points, attention aux turnovers et la grille hexagonale apporte une vue nouvelle. </p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">🃏</div>
-          <h3>Decks & Turnovers</h3>
-          <p>Chaque faction possède son deck dédié avec ses actions clés. Le deck sert également de compte-tours pour dynamiser la partie.</p>
+          <h3>Des actions héroiques</h3>
+          <p>Toute les actions spécial sont géré par les deck d'équipe.</p>
         </div>
+        <div>plus...</div>
       </div>
     </section>
 
-    <!-- SECTION 2 : JOIN -->
-    <section id="join" class="section-block">
-      <div class="section-header">
-        <span class="section-tag">Communauté</span>
-        <h2 class="section-title">💬 Rejoindre l'aventure</h2>
-      </div>
-      <div class="community-banner">
-        <h3>Prenez place dans les gradins et sur le terrain</h3>
-        <p>
-          Rejoignez les créateurs, testeurs et passionnés de fantasy football. Trouvez des adversaires, partagez vos parties et participez aux discussions sur les règles.
-        </p>
-        <div class="community-buttons">
-          <a href="https://discord.gg/VOTRE_LIEN" class="btn-action btn-join" target="_blank" rel="noopener noreferrer">
-            <span>💬</span>
-            <span>Rejoindre le Discord</span>
-          </a>
-          <a href="https://github.com/VOTRE_USER/dashbowl" class="btn-action btn-action" style="background: var(--github); color: white;" target="_blank" rel="noopener noreferrer">
-            <span>🐙</span>
-            <span>Projet GitHub</span>
-          </a>
-        </div>
-      </div>
-    </section>
 
     <!-- SECTION 3 : FEEDBACK -->
     <section id="feedback" class="section-block">
       <div class="section-header">
-        <span class="section-tag">Co-Développement</span>
-        <h2 class="section-title">📝 Vos Retours & Feedback</h2>
+        <h2 class="section-title">Contribuer</h2>
       </div>
       <div class="feedback-box">
         <h3>Votre avis façonne le jeu</h3>
