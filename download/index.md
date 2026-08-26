@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Tester Dashbowl — Kit de Playtest & Téléchargements
+title: Kit de Playtest & Téléchargements
+subtitle: Tout le matériel nécessaire pour vos premières parties d'essai est disponible en libre téléchargement ci-dessous.
 ---
 
 # 🎲 Tester Dashbowl — Kit de Playtest
 
 Bienvenue sur la page de téléchargement du matériel de test pour **Dashbowl**, le jeu de fantasy football sur grille hexagonale.
 
-Tout le matériel nécessaire pour vos premières parties d'essai est disponible en libre téléchargement ci-dessous.
 
----
 
 ## 📥 Matériel à télécharger
 
@@ -45,6 +44,4 @@ Vos impressions de jeu et vos retours sont essentiels pour ajuster l'équilibrag
 - 💬 **[Rejoindre le Discord](https://discord.gg/VOTRE_LIEN)** — Discutez des règles, partagez vos photos de parties et trouvez des joueurs.
 - 📝 **[Donner du Feedback / Ouvrir un ticket](https://github.com/VOTRE_USER/dashbowl/issues)** — Proposer une idée, signaler une ambiguïté dans les règles ou un point d'équilibrage.
 
----
 
-[⬅ Retour à l'accueil](../index.html)

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — Dashbowl</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="746b4fe2-d985-4d50-ab6b-f766019c41f4"></script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="nav-sticky">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">DASH<img src="images/ball.png" alt="Dashbowl" class="nav-ball"><span>BOWL</span></a>
+      <ul class="nav-links">
+        <li><a href="rules.html" class="active">Règles</a></li>
+        <li><a href="download/">Kit de jeu</a></li>
+        <li><a href="index.html#join">💬 Rejoindre</a></li>
+        <li><a href="index.html#feedback">📝 Feedback</a></li>
+        <li><a href="download/" class="btn-nav">Télécharger</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Subpage Header Banner -->
+  <header class="page-header">
+    <div class="page-header-overlay"></div>
+    <div class="page-header-content">
+      <h1 class="page-title">{{ page.title }}</h1>
+      <p class="page-subtitle">
+        {{ page.subtitle }}
+      </p>
+    </div>
+  </header>
+
+  <!-- Layout (Sidebar + Rules Content) -->
+  <div class="layout-container">
+
+    <!-- Sticky Table of Contents -->
+    <aside class="sidebar">
+      <div class="sidebar-title">📑 Sommaire</div>
+      <ul class="toc-list">
+        <li><a href="#introduction">1. Introduction & Objectif</a></li>
+        <li><a href="#mise-en-place">2. Mise en Place</a></li>
+        <li><a href="#tour-de-jeu">3. Déroulement d'un Tour</a></li>
+        <li><a href="#actions-base">4. Actions & Grille Hex</a></li>
+        <li><a href="#decks-factions">5. Decks de Factions</a></li>
+        <li><a href="#victoire">6. Touchdowns & Fin de Match</a></li>
+      </ul>
+    </aside>
+
+    <main class="rules-content">
+      <div class="rule-card">
+        {{ content }}
+      </div>
+    </main>
+  </div>
+
+  {% include footer.html %}
+
+</body>
+</html>
