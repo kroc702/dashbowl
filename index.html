@@ -20,7 +20,7 @@ lang: fr
       <ul class="nav-links">
         <li><a href="{{ site.baseurl }}/rules.html">Règles</a></li>
         <li><a href="{{ site.baseurl }}/download/">Tester</a></li>
-        <li><a href="https://discord.gg/kH43mSsqZ">Discord</a></li>
+        <li><a href="{{ site.discordurl }}">Discord</a></li>
         <li><a href="#feedback">Feedback</a></li>
       </ul>
     </div>
@@ -43,7 +43,7 @@ lang: fr
           <img src="{{ site.baseurl }}/images/files.png"/>
           <span>Tester le jeu</span>
         </a>
-        <a href="https://discord.gg/kH43mSsqZ" class="btn-action btn-join">
+        <a href="{{ site.discordurl }}" class="btn-action btn-join">
           <img src="{{ site.baseurl }}/images/discord-white-icon.png"/>
           <span>Join discord</span>
         </a>
@@ -61,7 +61,7 @@ lang: fr
     <!-- Concept & Caractéristiques -->
     <section class="section-block">
       <div class="section-header">
-        <h2 class="section-title">Pourquoi Dashbowl ?</h2>
+        <h2 class="section-title"><a class="section-title" href="{{ site.baseurl }}/objectives">Pourquoi Dashbowl ?</a></h2>
         Car il existe une place pour des règles entre blood bowl et blitz bowl.
       </div>
       <div class="features-grid">
@@ -78,9 +78,9 @@ lang: fr
         <div class="feature-card">
           <div class="feature-icon">🃏</div>
           <h3>Des actions héroiques</h3>
-          <p>Toute les actions spécial sont géré par les deck d'équipe.</p>
+          <p>Les actions spécial sont géré par les deck d'équipe. Cela permet toutes les fantaisies tout en gardant un socle de règle minimaliste.</p>
         </div>
-        <div>plus...</div>
+        <div><a href="{{ site.baseurl }}/objectives">plus...</a></div>
       </div>
     </section>
 
@@ -88,23 +88,21 @@ lang: fr
     <!-- SECTION 3 : FEEDBACK -->
     <section id="feedback" class="section-block">
       <div class="section-header">
-        <h2 class="section-title">Contribuer</h2>
+        <h2 class="section-title">Votre aide est indispensable</h2>
       </div>
       <div class="feedback-box">
-        <h3>Votre avis façonne le jeu</h3>
         <p>
-          Vous avez testé une partie ? Un point de règle vous semble obscur ou une faction déséquilibrée ? Vos retours de jeu sont essentiels pour perfectionner Dashbowl.
+          Commencez par vous faire connaitre sur la <a href="{{ site.discordurl }}">comunauté discord</a>.<br/>
+          Pour l'instant toutes les contributions passe par un échange direct, mais aidez-nous a organisez la communauté.<br/>
+          Voici quelques idées pour contribuer:
+          <ul>
+          <li>Parlez du jeu autour de vous, dans les clubs locaux et vos réseaux sociaux.</li>
+          <li>Faites un retour sur les règles et l'équilibrage des équipes.</li>
+          <li>Proposez des améliorations et ajustements.</li>
+          <li>Participez à la rédaction du site, des PDF ou autre ressources.</li>
+          <li>Maintenez une traduction.</li>
+          </ul>
         </p>
-        <div class="community-buttons">
-          <a href="https://discord.gg/VOTRE_LIEN" class="btn-action btn-feedback" target="_blank" rel="noopener noreferrer">
-            <span>💬</span>
-            <span>Canal #playtest-feedback sur Discord</span>
-          </a>
-          <a href="https://github.com/VOTRE_USER/dashbowl/issues" class="btn-action" style="background: var(--dark-bg); color: #c9d1d9; border: 1px solid var(--card-border);" target="_blank" rel="noopener noreferrer">
-            <span>💡</span>
-            <span>Ouvrir un ticket GitHub</span>
-          </a>
-        </div>
       </div>
     </section>
 

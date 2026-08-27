@@ -6,6 +6,8 @@ title: 'DASH BOWL'
 url: 'https://kroc702.github.io/dashbowl'
 baseurl: '/dashbowl'
 
+discordurl: 'https://discord.gg/kH43mSsqZ'
+
 plugins:
 - jekyll-sitemap
 

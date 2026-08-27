@@ -1,11 +1,46 @@
 ---
 layout: default
 title: Règles de base
-subtitle: les règles présenté ici suffisent à jouer votre première partie
+subtitle: v0.1 - les règles présenté ici suffisent à jouer votre première partie
 lang: fr
 ---
 * TOC
 {:toc}
+
+## Introduction
+Un terrain pavé d’hexagone (12 x 19), avec un gabarit de rebond sur 12 cases.
+Vous pouvez tenter sur un terrain de blood bowl seven voir blitz bowl, dans ce cas utilisez un D8 ou D16 pour les rebonds.
+
+Un D12
+Vous pouvez tenter avec un D6 x2 pour les jets et un D6 pour les rebonds.
+
+Un ballon et deux équipes (figurines, fiche d’équipe et éventuellement un deck d’action si vous testez cette règle)
+
+La fiche d’équipe est la description de l’équipe donnant le nombre de joueur à chaque poste ainsi que leur caractéristique.
+ Chaque joueur à les caractéristiques suivante :
+- Poste : le type de joueur, la figurine doit permettre de distinguer le poste du joueur. Le poste peut avoir un impact sur certaine cartes ou talent d’équipe.
+- Mouvement (M [3-9]) : plus que le nombre de case de déplacement, cela correspond au nombre d’action possible lors d’une activation. Certaines actions demandes plusieurs points de mouvement.
+- Lancer (L [4-10+]) : la capacité du joueur à effectuer une passe.
+- Blocage (B [4-10+]) : la capacité du joueur à bloquer ou tacler un joueur adverse.
+- Armure (A [4-10+]) : représente aussi sa masse et son agilité. La capacité du joueur à rester debout suite à un blocage.
+
+
+## Glossaire
+- Joueur : une figurine sur le terrain
+- Coach : la personne qui déplace les figurines
+- Joueur debout : un joueur qui n’est pas à terre
+- Joueur debout libre : aucun joueur debout de l’équipe adverse adjacent
+- Joueur debout marqué : au moins un joueur debout de l’équipe adverse adjacent
+- Joueur multi-marqué : au moins deux joueurs debout de l’équipe adverse adjacent
+- Joueur à terre : Un joueur à terre ne peut que se relever lors de son activation.
+- Un joueur mis à terre doit immédiatement lâcher le ballon (cf rebondit)
+- Joueur ko : retiré du plateau jusqu’au prochain touchdown
+- Rebondit : le ballon est déplacé sur une case déterminée aléatoirement sur l’une des 12 cases autour du point de rebond. Si le ballon arrive sur un joueur libre, celui-ci s’en empare. Si le ballon arrive sur un joueur marqué ou à terre, le ballon rebondi une nouvelle fois.
+- Si le ballon doit atterrir en dehors du plateau ou sur un obstacle, le ballon doit atterrir sur la case opposée.
+- Jet de passe, Jet de blocage, Jet d’armure : le coach du joueur concerné doit lancer un dé 12 et y ajouter un éventuel modificateur. Si le résultat est supérieur ou égal à la compétence correspondante du joueur c’est une réussite. Sinon c’est un échec et l’activation du joueur actif prend fin.
+- Les effets sont détaillé dans les sections concernés.
+- Maladresse : si lors d’un jet de dé le coach fait <=2 naturel ou après modificateur, alors le joueur fait une maladresse.
+- Turn over : après une maladresse du joueur actif, le tour de son coach s’arrête immédiatement même si tous les joueurs n’ont pas été activé.
 
 ## Mise en place
 
