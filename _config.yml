@@ -7,6 +7,7 @@ url: 'https://kroc702.github.io/dashbowl'
 baseurl: '/dashbowl'
 
 discordurl: 'https://discord.gg/kH43mSsqZ'
+githuburl: 'https://github.com/kroc702/dashbowl'
 
 plugins:
 - jekyll-sitemap

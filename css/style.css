@@ -226,7 +226,6 @@ nav.nav-sticky {
   position: relative;
   background: url('../images/home.jpg') center 20% / cover no-repeat;
   padding: 5rem 1.5rem 4rem;
-  border-bottom: 1px solid var(--card-border);
   overflow: hidden;
 }
 
@@ -235,8 +234,8 @@ nav.nav-sticky {
   inset: 0;
   background: linear-gradient(
     180deg,
-    rgba(13, 17, 23, 0.85) 0%,
-    rgba(13, 17, 23, 0.92) 60%,
+    rgba(13, 17, 23, 0.4) 0%,
+    rgba(13, 17, 23, 0.92) 70%,
     rgba(13, 17, 23, 1) 100%
   );
   z-index: 1;
@@ -541,6 +540,14 @@ nav.nav-sticky {
   font-size: 0.95rem;
 }
 
+.feature-card img {
+  float: left;
+  margin-right: 20px;
+  filter: opacity(0.5);
+  height: 60px;
+  width: 60px;
+}
+
 /* --------------------------------------------------------------------------
    7. Composants Documentaires (Règles, Cartes, Sommaire, Callouts)
    -------------------------------------------------------------------------- */
@@ -759,7 +766,123 @@ nav.nav-sticky {
   gap: 1rem;
 }
 
-/* Encart Feedback */
+/* Encart Feedback & Contribution */
+.feedback-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.feedback-card {
+  background: var(--dark-card);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.feedback-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.feedback-card-accent {
+  background: linear-gradient(135deg, rgba(88, 101, 242, 0.08) 0%, var(--dark-card) 100%);
+  border-color: rgba(88, 101, 242, 0.25);
+}
+
+.feedback-card-accent:hover {
+  border-color: rgba(88, 101, 242, 0.5);
+}
+
+.feedback-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.feedback-subicon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+  opacity: 0.65;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+  transition: opacity 0.2s ease;
+}
+
+.feedback-card:hover .feedback-subicon {
+  opacity: 0.9;
+}
+
+.feedback-card-header h3 {
+  font-size: 1.25rem;
+  color: white;
+  margin-bottom: 0.2rem;
+}
+
+.feedback-card-desc {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.feedback-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.feedback-list li {
+  position: relative;
+  padding-left: 1.3rem;
+  color: #c9d1d9;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.feedback-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 1.2rem;
+  line-height: 1;
+  top: -0.05rem;
+}
+
+.feedback-list li strong {
+  color: #f0f6fc;
+}
+
+.feedback-text {
+  color: #c9d1d9;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.feedback-text a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.feedback-cta {
+  margin-top: auto;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .feedback-box {
   background: linear-gradient(135deg, rgba(247, 127, 0, 0.1) 0%, var(--dark-surface) 100%);
   border: 1px solid rgba(247, 127, 0, 0.3);
