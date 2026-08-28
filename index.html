@@ -96,22 +96,51 @@ lang: fr
           <p class="section-subtitle">Car votre aide est indispensable</p>
         </div>
       </div>
-      <div class="feedback-box">
-        <p>
-          Commencez par vous faire connaitre sur la <a href="{{ site.discordurl }}">comunauté discord</a>.<br/>
-          Pour l'instant toutes les contributions passe par un échange direct, mais aidez-nous a organisez la communauté.<br/>
-          <img width="100" height="100" src="{{ site.baseurl }}/images/wanted.png"/>
-          Voici quelques idées pour contribuer:
-          <ul>
-          <li>Parlez du jeu autour de vous, dans les clubs locaux et vos réseaux sociaux.</li>
-          <li>Faites un retour sur les règles et l'équilibrage des équipes.</li>
-          <li>Proposez des améliorations et ajustements.</li>
-          <li>Participez à la rédaction du site, des PDF ou autre ressources.</li>
-          <li>Maintenez une traduction.</li>
+
+      <div class="feedback-container">
+        <!-- Carte 1 : Communauté & Discord -->
+        <div class="feedback-card feedback-card-accent">
+          <div class="feedback-card-header">
+            <img class="feedback-subicon" src="{{ site.baseurl }}/images/cooperation.png" alt="" />
+            <div>
+              <h3>Rejoindre la communauté</h3>
+              <p class="feedback-card-desc">Échanges directs & organisation</p>
+            </div>
+          </div>
+          <p class="feedback-text">
+            Le développement de Dashbowl repose avant tout sur les échanges avec les joueurs sur discord.
+            Il n'y a pour l'instant pas d'autre outils pour gérer les retours des joueurs.
+          </p>
+          <p class="feedback-text">
+            Rejoignez notre Discord pour vous faire connaître et partager vos avis.
+          </p>
+          <div class="feedback-cta">
+            <a href="{{ site.discordurl }}" class="btn btn-secondary9" target="_blank" rel="noopener noreferrer">
+              <img width="20" height="20" src="{{ site.baseurl }}/images/discord-white-icon.png" alt="" />
+              <span>Rejoindre le Discord</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Carte 2 : Idées de contribution -->
+        <div class="feedback-card">
+          <div class="feedback-card-header">
+            <img class="feedback-subicon" src="{{ site.baseurl }}/images/wanted.png" alt="" />
+            <div>
+              <h3>Comment contribuer ?</h3>
+              <p class="feedback-card-desc">Quelques pistes pour nous aider</p>
+            </div>
+          </div>
+          <ul class="feedback-list">
+            <li><strong>Faire connaître le jeu :</strong> dans vos clubs locaux, tournois et réseaux sociaux.</li>
+            <li><strong>Playtests & retours :</strong> tester les règles et l'équilibrage des équipes.</li>
+            <li><strong>Propositions & idées :</strong> suggérer des ajustements et améliorations de règles.</li>
+            <li><strong>Rédaction & traduction :</strong> participer à la rédaction du site, des PDF ou aux traductions.</li>
+            <li><strong>Organisation de la communauté :</strong> modérateur ou gestion des feedbacks.</li>
           </ul>
-          <img width="100" height="100" src="{{ site.baseurl }}/images/cooperation.png"/>
-        </p>
+        </div>
       </div>
+
       <div class="section-more">
         <a href="{{ site.baseurl }}/objectives" class="link-more">plus... </a>
       </div>

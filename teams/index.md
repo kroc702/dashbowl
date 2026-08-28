@@ -5,7 +5,8 @@ subtitle: Peu de partie ont été joué avec chacune des équipes, aidez-nous à
 lang: fr
 ---
 
-
+Cette section mériterait d'être développé avec une page dédié par équipe contenant
+une petite présentation, le detail des cartes et quelques photo de figurine !
 
 * TOC
 {:toc}

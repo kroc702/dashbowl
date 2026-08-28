@@ -769,7 +769,7 @@ nav.nav-sticky {
 /* Encart Feedback & Contribution */
 .feedback-container {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   align-items: stretch;
 }
@@ -808,17 +808,18 @@ nav.nav-sticky {
 }
 
 .feedback-subicon {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
   flex-shrink: 0;
-  opacity: 0.65;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
-  transition: opacity 0.2s ease;
+  opacity: 0.6;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+  transition: opacity 0.25s ease, transform 0.25s ease;
 }
 
 .feedback-card:hover .feedback-subicon {
-  opacity: 0.9;
+  opacity: 0.85;
+  transform: scale(1.04);
 }
 
 .feedback-card-header h3 {
@@ -881,6 +882,9 @@ nav.nav-sticky {
   padding-top: 1rem;
   display: flex;
   justify-content: flex-start;
+}
+div.feedback-cta a {
+  color: white;
 }
 
 .feedback-box {
@@ -992,6 +996,9 @@ color: var(--text-muted);
   }
   .sidebar {
     position: static;
+  }
+  .feedback-container {
+    grid-template-columns: 1fr;
   }
 }
 
