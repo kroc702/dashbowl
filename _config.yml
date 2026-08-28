@@ -13,6 +13,18 @@ plugins:
 - jekyll-sitemap
 - jekyll-last-modified-at
 
+defaults:
+- scope:
+    path: ''
+  values:
+    lang: en
+    langpath: ''
+- scope:
+    path: 'fr'
+  values:
+    lang: fr
+    langpath: 'fr/'
+
 ########
 # more settings
 

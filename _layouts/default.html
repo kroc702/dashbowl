@@ -12,7 +12,12 @@
   <!-- Navigation Bar -->
   <nav class="nav-sticky">
     <div class="nav-container">
-      <a href="{{ site.baseurl }}/" class="nav-brand">DASH<img src="{{ site.baseurl }}/images/ball.png" alt="Dashbowl" class="nav-ball"><span>BOWL</span></a>
+      <a href="{{ site.baseurl }}/{{page.langpath}}" class="nav-brand">DASH<img src="{{ site.baseurl }}/images/ball.png" alt="Dashbowl" class="nav-ball"><span>BOWL</span></a>
+      <div class="nav-right">
+        <ul class="nav-links">
+        </ul>
+          {% include lang-selector.html %}
+      </div>
     </div>
   </nav>
 
@@ -32,17 +37,17 @@
 
     <!-- Sticky Table of Contents -->
     <aside class="sidebar">
-      <div class="sidebar-title">Règles</div>
+      <div class="sidebar-title">{{site.data.i18n.rules[page.lang]}}</div>
       <ul class="toc-list">
-        <li><a href="{{ site.baseurl }}/rules">Règles de base</a></li>
-        <li><a href="{{ site.baseurl }}/experimental">Règles experimentales</a></li>
-        <li><a href="{{ site.baseurl }}/teams">Equipes</a></li>
-        <li><a href="{{ site.baseurl }}/download/">Download</a></li>
+        <li><a href="{{ site.baseurl }}/{{page.langpath}}rules">Règles de base</a></li>
+        <li><a href="{{ site.baseurl }}/{{page.langpath}}experimental">Règles experimentales</a></li>
+        <li><a href="{{ site.baseurl }}/{{page.langpath}}teams">Equipes</a></li>
+        <li><a href="{{ site.baseurl }}/{{page.langpath}}download/">Download</a></li>
       </ul>
-      <div class="sidebar-title">Communauté</div>
+      <div class="sidebar-title">{{site.data.i18n.community[page.lang]}}</div>
       <ul class="toc-list">
         <li><a href="{{ site.discordurl }}">Discord</a></li>
-        <li><a href="{{ site.baseurl }}/objectives">Gouvernance</a></li>
+        <li><a href="{{ site.baseurl }}/{{page.langpath}}objectives">Gouvernance</a></li>
       </ul>
     </aside>
 

@@ -140,6 +140,146 @@ nav.nav-sticky {
 }
 
 /* --------------------------------------------------------------------------
+   2.1. Sélecteur de Langue (Language Switcher)
+   -------------------------------------------------------------------------- */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.lang-selector {
+  position: relative;
+  display: inline-block;
+  user-select: none;
+}
+
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(22, 27, 34, 0.8);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--card-border);
+  color: var(--text-main);
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.lang-btn:hover,
+.lang-btn:focus-visible,
+.lang-selector.open .lang-btn {
+  background: rgba(22, 27, 34, 0.95);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.lang-icon {
+  opacity: 0.85;
+  flex-shrink: 0;
+  stroke: var(--accent);
+}
+
+.lang-code {
+  letter-spacing: 0.5px;
+}
+
+.lang-chevron {
+  opacity: 0.6;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.lang-selector.open .lang-chevron {
+  transform: rotate(180deg);
+}
+
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: 155px;
+  background: rgba(22, 27, 34, 0.95);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  padding: 0.35rem;
+  list-style: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  /* opacity: 0; */
+  transform: translateY(-8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+  z-index: 200;
+}
+.lang-selector:hover .lang-dropdown {
+  display: block;
+}
+
+.lang-selector.open .lang-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.lang-option {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.55rem 0.75rem;
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  color: #c9d1d9;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.lang-option:hover,
+.lang-option:focus-visible {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.lang-option.active {
+  color: white;
+  font-weight: 700;
+  background: rgba(230, 57, 70, 0.15);
+}
+
+.lang-flag {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.lang-name {
+  flex: 1;
+}
+
+.lang-check {
+  color: var(--primary);
+  font-weight: 900;
+  font-size: 0.95rem;
+  display: none;
+}
+
+.lang-option.active .lang-check {
+  display: inline-block;
+}
+
+/* --------------------------------------------------------------------------
    3. Bannière d'Accueil Immersive (Hero Banner)
    -------------------------------------------------------------------------- */
 .hero-banner {
