@@ -48,6 +48,8 @@ Il devrait être possible de construire sa propre équipe a partir d'un système
 
 # Gouvernance
 
+Dashbowl est proposé sous [license create commons CC-BY-SA-4.0]({{ site.baseurl }}/license.html)
+
 ### versionement
 Afin que chacun comprenne précisément de quelle règle on parle, celle-ci seront versioné.
 - Les Changement de versions mineurs implique du formatage, reformulation ou précision.
