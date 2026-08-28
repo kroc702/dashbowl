@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ page.lang | default: 'en' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,18 +37,18 @@
 
     <!-- Sticky Table of Contents -->
     <aside class="sidebar">
-      <div class="sidebar-title">{{site.data.i18n.rules[page.lang]}}</div>
-      <ul class="toc-list">
-        <li><a href="{{ site.baseurl }}/{{page.langpath}}rules">Règles de base</a></li>
-        <li><a href="{{ site.baseurl }}/{{page.langpath}}experimental">Règles experimentales</a></li>
-        <li><a href="{{ site.baseurl }}/{{page.langpath}}teams">Equipes</a></li>
-        <li><a href="{{ site.baseurl }}/{{page.langpath}}download/">Download</a></li>
-      </ul>
-      <div class="sidebar-title">{{site.data.i18n.community[page.lang]}}</div>
-      <ul class="toc-list">
-        <li><a href="{{ site.discordurl }}">Discord</a></li>
-        <li><a href="{{ site.baseurl }}/{{page.langpath}}objectives">Gouvernance</a></li>
-      </ul>
+       <div class="sidebar-title">{{site.data.i18n.rules[page.lang] | default: 'Rules'}}</div>
+       <ul class="toc-list">
+         <li><a href="{{ site.baseurl }}/{{page.langpath}}rules">{{site.data.i18n.core_rules[page.lang] | default: 'Core Rules'}}</a></li>
+         <li><a href="{{ site.baseurl }}/{{page.langpath}}experimental">{{site.data.i18n.experimental_rules[page.lang] | default: 'Experimental Rules'}}</a></li>
+         <li><a href="{{ site.baseurl }}/{{page.langpath}}teams">{{site.data.i18n.teams[page.lang] | default: 'Teams'}}</a></li>
+         <li><a href="{{ site.baseurl }}/{{page.langpath}}download/">{{site.data.i18n.download[page.lang] | default: 'Download'}}</a></li>
+       </ul>
+       <div class="sidebar-title">{{site.data.i18n.community[page.lang] | default: 'Community'}}</div>
+       <ul class="toc-list">
+         <li><a href="{{ site.discordurl }}">Discord</a></li>
+         <li><a href="{{ site.baseurl }}/{{page.langpath}}objectives">{{site.data.i18n.governance[page.lang] | default: 'Governance'}}</a></li>
+       </ul>
     </aside>
 
     <main class="rules-content">

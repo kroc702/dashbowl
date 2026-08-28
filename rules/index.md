@@ -1,132 +1,133 @@
 ---
 layout: default
-title: Règles de base
-subtitle: v0.1 - les règles présenté ici suffisent à jouer votre première partie
+title: Core Rules
+subtitle: v0.1 — The rules presented here are all you need to play your first match
 ---
 * TOC
 {:toc}
 
 ## Introduction
 
-#### Matériel
-Pour jouer une partie de Dash Bowl vous aurrez besoin d'un terrain pavé d’hexagone (12 x 19), avec un gabarit de rebond sur 12 cases.
-Vous pouvez tenter sur un terrain de blood bowl seven voir blitz bowl, dans ce cas utilisez un D8 ou D16 pour les rebonds.
+#### Components
+To play a match of Dash Bowl, you will need a hexagonal grid board (12 x 19) with a 12-space bounce/scatter template.
+You can also try playing on a Blood Bowl Sevens or Blitz Bowl pitch; in that case, use a D8 or D16 for scatters.
 
-Un D12.
-Vous pouvez tenter avec un D6 x2 pour les jets et un D6 pour les rebonds.
+A D12 die.
+You can also try using 2xD6 for test rolls and a D6 for scatters.
 
-Un ballon et deux équipes (figurines, fiche d’équipe et éventuellement un deck d’action si vous testez cette règle)
+A ball and two teams (miniatures, team roster sheet, and optionally an action deck if you are testing that rule).
 
-#### Les équipes
-La fiche d’équipe est la description de l’équipe donnant le nombre de joueur à chaque poste ainsi que leur caractéristique.
- Chaque joueur à les caractéristiques suivante :
-- **Poste** : le type de joueur, la figurine doit permettre de distinguer le poste du joueur. Le poste peut avoir un impact sur certaine cartes ou talent d’équipe.
-- **Mouvement** (M [3-9]) : plus que le nombre de case de déplacement, cela correspond au nombre d’action possible lors d’une activation. Certaines actions demandes plusieurs points de mouvement.
-- **Lancer** (L [4-10+]) : la capacité du joueur à effectuer une passe.
-- **Blocage** (B [4-10+]) : la capacité du joueur à bloquer ou tacler un joueur adverse.
-- **Armure** (A [4-10+]) : représente aussi sa masse et son agilité. La capacité du joueur à rester debout suite à un blocage.
+#### Teams
+The team sheet describes the team, specifying the number of players at each position as well as their stats.
+Each player has the following characteristics:
+- **Position**: The player's role; miniatures should make it easy to identify each player's position. Position can affect certain cards or team talents.
+- **Movement** (M [3-9]): More than just the distance moved, this corresponds to the number of action points available during an activation. Certain actions require multiple movement points.
+- **Throw** (T [4-10+]): The player's ability to complete a pass.
+- **Block** (B [4-10+]): The player's ability to block or tackle an opponent.
+- **Armor** (A [4-10+]): Represents mass, durability, and agility. The player's ability to stay on their feet after a block.
 
-#### Début de partie
-L’équipe qui joue à domicile débute le jeu en défense, celle qui joue à l’extérieur engage et donc joue en premier. On peut tirer à pile ou face pour les matches amicaux.
+#### Starting the Match
+The home team starts the game on defense; the away team kicks off and takes the first turn. You can flip a coin for friendly matches.
 
-Ensuite chaque équipe/coach jouent à tour de role en activant leur joueur un par un. L'ordre est important car en cas d'échec le tour de l'équipe prend fin imédiatement, c'est un turnover.
+Each coach/team then alternates turns, activating their players one by one. The activation order is crucial because if an action fails, the team's turn ends immediately — this is a turnover.
 
-## Glossaire
-- **Joueur** : une figurine sur le terrain
-- **Coach** : la personne qui déplace les figurines
-- **Joueur debout** : un joueur qui n’est pas à terre
-- **Joueur libre** : un joueur debout qui n'a aucun joueur debout de l’équipe adverse adjacent
-- **Joueur marqué** : un joueur debout qui a au moins un joueur debout de l’équipe adverse adjacent
-- **Joueur multi-marqué** : un joueur marqué qui a au moins deux joueurs debout de l’équipe adverse adjacent
-- **Joueur à terre** : Un joueur à terre ne peut que se relever lors de son activation.
-Un joueur mis à terre doit immédiatement lâcher le ballon (cf rebondit)
-- **Joueur ko** : retiré du plateau jusqu’au prochain touchdown
-- **Rebond** : le ballon est déplacé sur une case déterminée aléatoirement sur l’une des 12 cases autour du point de rebond (les 6 cases adjacentes et 6 autres à 2 cases de distance). Si le ballon arrive sur un joueur libre, celui-ci s’en empare.
-Si le ballon arrive sur un joueur marqué ou à terre, le ballon rebondi une nouvelle fois.
-Si le ballon doit atterrir en dehors du plateau ou sur un obstacle, le ballon doit atterrir sur la case opposée.
-- **Jet de passe, Jet de blocage, Jet d’armure** : le coach du joueur concerné doit lancer un dé 12 et y ajouter un éventuel modificateur. Si le résultat est supérieur ou égal à la compétence correspondante du joueur c’est une réussite. Sinon c’est un échec et l’activation du joueur actif prend fin.
-Les effets sont détaillé dans les sections concernés.
-- **Maladresse** : si lors d’un jet de dé le coach fait <=2 naturel ou après modificateur, alors le joueur fait une maladresse.
-- **Turn over** : après une maladresse du joueur actif, le tour de son coach s’arrête immédiatement même si tous les joueurs n’ont pas été activé.
+## Glossary
+- **Player**: A miniature on the pitch.
+- **Coach**: The person moving the miniatures.
+- **Standing Player**: A player who is not prone / knocked down.
+- **Open Player**: A standing player who has no adjacent standing opposing players.
+- **Marked Player**: A standing player who has at least one adjacent standing opposing player.
+- **Multi-Marked Player**: A marked player who has at least two adjacent standing opposing players.
+- **Prone Player**: A player on the ground can only stand up during their activation.
+  A player knocked down must immediately drop the ball (see Scatter / Bounce).
+- **KO Player**: Removed from the pitch until the next touchdown.
+- **Bounce / Scatter**: The ball is moved to a randomly determined space among the 12 spaces surrounding the bounce point (the 6 adjacent spaces and 6 others at distance 2). If the ball lands on an open player, they catch it.
+  If the ball lands on a marked or prone player, it bounces again.
+  If the ball would land off the pitch or onto an obstacle, it bounces to the opposite space.
+- **Pass Roll, Block Roll, Armor Roll**: The active player's coach rolls a D12 and adds any applicable modifiers. If the result is greater than or equal to the player's corresponding stat, it is a success. Otherwise, it is a failure and the active player's activation ends. Effects are detailed in the relevant sections.
+- **Fumble / Blunder**: If a roll results in a natural 1 or 2, or <= 2 after modifiers, the player commits a fumble.
+- **Turnover**: After a fumble by the active player, their team's turn ends immediately even if not all players have been activated.
 
 
-## Tour d’engagement
-L’équipe en défense place ses joueurs à 5 cases ou moins de sa ligne de touchdown.
+## Kickoff Turn (Turn 0)
+The defending team places its players within 5 spaces or fewer of its own touchdown line.
 
-L’équipe attaquante place ses joueurs dans sa ligne de touchdown, donne le ballon à l’un d’eux, puis les actives normalement.
+The attacking team places its players on its touchdown line, gives the ball to one of them, and then activates them normally.
 
-## Les autres tours se déroule tous de la même façon
-L’équipe en défense joue en activant ses joueurs un par un, puis l’équipe attaquante fait de même.
+## Standard Turns
+Standard turns all follow the same sequence:
+The defending team plays by activating its players one by one, then the attacking team does the same.
 
-L’activation d’un joueur lui permet de réaliser les actions suivantes dans la limite de sa caractéristique de mouvement :
+Activating a player allows them to perform the following actions, up to their Movement stat allowance:
 
-#### Courir (joueur libre - 1M)
-Déplacer le joueur libre d'une case, ce joueur doit être encore libre après ce mouvement.
+#### Run (Open player — 1M)
+Move the open player 1 space; the player must still be open after this move.
 
-#### Marquer (joueur libre - 2M)
-Déplacer le joueur libre d'une case.
+#### Mark (Open player — 2M)
+Move the open player 1 space into an opposing player's marking zone.
 
-#### Passe (joueur libre - Une seule par tour par équipe, 1M + jet de lancer)
-Un joueur libre peu utiliser 1M pour tenter une action de passe sur un coéquipier receveur.
-- 1 case & receveur libre : réussite automatique
-- <= 4 cases : jet de lancer
-- <= 8 cases : jet de lancer -1
-- Receveur marqué : -1 par marquage
+#### Pass (Open player — Once per turn per team, 1M + Throw roll)
+An open player can spend 1M to attempt a pass to a teammate receiver.
+- 1 space & open receiver: Automatic success
+- <= 4 spaces: Throw roll
+- <= 8 spaces: Throw roll -1
+- Marked receiver: -1 per marking opponent
 
-Résultat:
--	Maladresse : Le ballon rebondi autour du lanceur. Turnover.
--	Echec : Le ballon rebondi autour de la cible. Le joueur actif et le receveur ne peuvent plus être activé ce tour ci
--	Réussite : Le ballon arrive dans les mains du receveur
+Results:
+- **Fumble**: The ball scatters around the thrower. Turnover.
+- **Failure**: The ball scatters around the target. The active player and the receiver cannot be activated again this turn.
+- **Success**: The ball lands safely in the receiver's hands.
 
-#### Ramasser le ballon (joueur libre/marqué - 1M)
-Si pendant son activation, un joueur libre ou marqué ce trouve sur la même case que le ballon, il peut utiliser un point de mouvement pour s’emparer de celui-ci.
+#### Pick Up the Ball (Open / Marked player — 1M)
+If during their activation, an open or marked player is in the same space as the ball, they can spend 1 movement point to pick it up.
 
-S’il ne le fait pas, le ballon rebondi.
+If they choose not to, the ball bounces.
 
-Si le joueur est marqué, il doit faire un jet d’armure (-1 par joueur supplémentaire le marquant)
--	Maladresse : le joueur actif est à terre. Le ballon rebondit. Turnover.
--	Echec : Le ballon rebondit. Fin de l’activation.
--	Réussite : Le ballon est dans les mains du joueur actif.
+If the player is marked, they must make an Armor roll (-1 per additional opponent marking them):
+- **Fumble**: The active player is knocked down. The ball bounces. Turnover.
+- **Failure**: The ball bounces. End of activation.
+- **Success**: The ball is safely in the active player's hands.
 
-#### Esquiver (joueur marqué - 2M)
-Déplacer le joueur marqué d'une case.
+#### Dodge / Disengage (Marked player — 2M)
+Move the marked player 1 space.
 
-A moins qu’il ne soit marqué uniquement par des joueurs multi-marqué, le joueur doit faire un jet d’armure avec -1 par joueur supplémentaire le marquant.
--	Maladresse : Le joueur est à terre. Turnover.
--	Echec : Le joueur est à terre.
--	Réussite : Le joueur est debout et peut continuer sont activation normalement.
+Unless marked exclusively by multi-marked opponents, the player must make an Armor roll with -1 per additional opponent marking them:
+- **Fumble**: The player is knocked down. Turnover.
+- **Failure**: The player is knocked down.
+- **Success**: The player remains standing and can continue their activation normally.
 
-#### Blocage (joueur marqué - 2M + jet de blocage)
-Un joueur marqué peu utiliser 2 points de mouvements pour tenter de bloquer un joueur adverse qu’il marque.
-Le coach du joueur actif doit faire un jet de blocage avec les modificateurs suivants :
-- +1 pour chaque joueur marquant le défenseur.
-- -1 pour chaque joueur marquant le joueur actif.
+#### Block (Marked player — 2M + Block roll)
+A marked player can spend 2 movement points to attempt a block on an adjacent opposing player they are marking.
+The active player's coach makes a Block roll with the following modifiers:
+- +1 for each teammate marking the defender.
+- -1 for each opponent marking the active player.
 
-Resultat:
--	Maladresse : le joueur actif est à terre. Turnover.
--	Échec : rien ne se passe. L’activation du joueur actif prend fin.
--	Réussite, le joueur défenseur doit faire un jet d’armure, s’il avait le ballon, celui-ci rebondi :
-    - -1 pour chaque joueur marquant le défenseur.
-    - +1 pour chaque joueur marquant le joueur actif.
+Results:
+- **Fumble**: The active player is knocked down. Turnover.
+- **Failure**: Nothing happens. The active player's activation ends.
+- **Success**: The defending player must make an Armor roll. If they had the ball, it bounces:
+  - -1 for each player marking the defender.
+  - +1 for each player marking the active player.
+  
+  Armor roll results:
+  - **Fumble**: The defender is KO.
+  - **Failure**: The defender is knocked down (prone).
+  - **Success**: The active player's coach chooses to push the defending player into one of the 3 opposite empty spaces. If not possible, the defender is knocked down.
+  The active player may advance for free into the space previously occupied by the defending player.
 
-    Resutat:
-    -	Maladresse, le défenseur est KO
-    -	Échec, le défenseur est à terre
-    -	Réussite, le coach du joueur actif choisi de déplacer le joueur défenseur sur l’une des 3 cases vide opposé. Si ce n’est pas   possible, le défenseur est à terre.
-    Le joueur actif peut se déplacer gratuitement sur la case précédemment occupé par le joueur défenseur.
-
-#### Se relever (joueur à terre - action unique)
-Un joueur à terre (pas ko) au début du tour peut se relever. Il ne peut faire aucune autre action pendant son activation.
-S’il est marqué, il doit faire un jet d’armure.
--	Maladresse : le joueur est KO. Turnover.
--	Echec : Le joueur reste à terre.
--	Réussite : Le joueur est debout.
+#### Stand Up (Prone player — Full activation action)
+A prone player (not KO) at the start of the turn can stand up. They cannot perform any other action during this activation.
+If marked, they must make an Armor roll:
+- **Fumble**: The player is KO. Turnover.
+- **Failure**: The player remains prone.
+- **Success**: The player stands up.
 
 ## Touchdown
-Dès qu’un joueur en possession du ballon se trouve dans la zone de touchdown adverse, le tour prend fin et son équipe marque un point.
-Un nouvel engagement a lieu comme au tour 0. L’équipe venant de marquer est désormais l’équipe en défense.
+As soon as a player in possession of the ball enters the opponent's touchdown zone, the turn ends and their team scores 1 point.
+A new kickoff takes place (as in Turn 0). The team that just scored is now the defending team.
 
-## Fin de partie
-Les conditions de fin de partie doivent être précisé. Deux options possibles :
-- la partie peut s’arrêter après 12 tours complet.
-- la partie peut s’arrêter dès qu’une équipe marque 3 touchdown.
+## End of Match
+Match end conditions should be agreed upon. Two possible options:
+- The match ends after 12 full turns.
+- The match ends as soon as a team scores 3 touchdowns.
+

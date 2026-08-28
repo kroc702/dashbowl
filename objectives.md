@@ -1,70 +1,69 @@
 ---
 layout: default
-title: objectifs et gouvernances
-subtitle: Les points clef devant guider les évolutions
-lang: fr
+title: Objectives & Governance
+subtitle: Key design principles guiding future development
 ---
 
-Dash Bowl à pour idée initiale un jeu simple et rapide comme blitz bowl toute en gardant certain aspect qui fond la profondeur de blood bowl.
+Dash Bowl's initial concept is a simple and fast-paced game like Blitz Bowl, while retaining certain tactical aspects that give Blood Bowl its depth.
 
-L'objectif du site internet est de définir des règles commune et identifiable. Pour cela il semble important de définir les principales dirrection ainsi que la gouvernance du projet.
+The website's objective is to define shared, clear, and recognizable rules. To achieve this, it is essential to outline the project's core directions and governance.
 
 * TOC
 {:toc}
 
-# Cahier des charges
+# Design Goals & Specifications
 
-### prise en main rapide mais richesse des situations.
-Proposition :
-Peu de règle qui gèrent uniquement les actions courantes. Les autres actions sont gérées par un système de carte comme pour blitz bowl.
+### Quick to learn, rich in tactical situations
+Proposition:
+A minimal set of core rules handling standard actions only. Other actions are managed through a team card system, similar to Blitz Bowl.
 
-### jeu rapide (~60mins ?)
-Proposition :
-Equipe réduite (6 ? éventuellement compatible avec blitz bowl).
-Règles simple pour éviter d’avoir à les consulter.
-Une seule mi-temps, jeu continue ?
-Le deck sert de compte tour ? ou bien la première équipe a 3 touch down ?
+### Fast-paced matches (~60 mins)
+Proposition:
+- Smaller team rosters (6 players, potentially compatible with Blitz Bowl).
+- Simple rules to avoid constantly having to check the rulebook.
+- Single half, continuous play?
+- Does the deck serve as a turn counter, or does the first team to score 3 touchdowns win?
 
-### jeu dynamique.
-Proposition :
-Toute l’équipe peu bouger.
-perte et récupération de ballon fréquent
+### Dynamic gameplay
+Proposition:
+- The entire team can move.
+- Frequent ball loss and turnovers of possession.
 
-### jeu dynamique avec des choix stratégiques.
-Proposition :
-Notion de turnover.
-Seul les touchdown rapporte des points (pas d’opportunisme sur les cartes).
-Des cases hexagonal pour refléter la lenteur des slaloms.
+### Dynamic play with meaningful strategic choices
+Proposition:
+- Turnover mechanic.
+- Only touchdowns award points (no opportunistic scoring from cards).
+- Hexagonal grid to naturally reflect the movement cost of slaloming around players.
 
-### des styles d’équipe bien distinct
-Proposition :
-En plus des joueurs, chaque équipe a son propre deck, et donc ses actions particulières.
+### Distinct team playstyles
+Proposition:
+In addition to player rosters, each team has its own custom deck with unique special actions.
 
-### Equilibre et compatibilités
-Les différentes équipe proposé doivent toute avoir des chances similaire de remporter un match.
+### Balance & Compatibility
+All proposed teams must have a fair and similar chance of winning a match.
 
-Il devrait être possible de construire sa propre équipe a partir d'un système generique.
+It should also be possible to build custom teams using a generic creation system.
 
 
-# Gouvernance
+# Governance
 
-Dashbowl est proposé sous [license create commons CC-BY-SA-4.0]({{ site.baseurl }}/license.html)
+Dashbowl is licensed under [Creative Commons CC-BY-SA-4.0]({{ site.baseurl }}/license.html).
 
-### versionement
-Afin que chacun comprenne précisément de quelle règle on parle, celle-ci seront versioné.
-- Les Changement de versions mineurs implique du formatage, reformulation ou précision.
-- Les Changement de versions majeurs implique de véritable modification de règle.
+### Versioning
+To ensure everyone knows precisely which rules are being discussed, they are versioned:
+- Minor version changes involve formatting, rephrasing, or rule clarifications.
+- Major version changes introduce actual rule modifications.
 
-Nous pourrons y faire référence sous la forme:
-- DBv0.1 pour les règles de base en version 0.1
-- ADBv1.5 pour les règles de base et les règles avancé en version 1.5 (aucune règle avancé n'est actuellement publié)
-- EDB[xxx] pour un assemblage de règle experimentale. xxx étant n'importe quelle précision.
+Rules are referenced as follows:
+- **DBv0.1**: Core rules version 0.1
+- **ADBv1.5**: Core rules and advanced rules version 1.5 (no advanced rules are currently published)
+- **EDB[xxx]**: Experimental rule set, where `xxx` indicates the specific revision or variant.
 
-### Contribution et validation
-La gouvernance devra être définis par les premiers membre.
+### Contribution & Validation
+Governance will be defined by the initial community members.
 
-L'idée étant de permetre à n'importe qui de proposer des règles experimentales qui pourons intégrer le corpus officiel après validation
-d'un conseil de membre actif. Par vote ou a l'unanimité, tout reste à définir.
+The goal is to allow anyone to propose experimental rules that can be integrated into the official corpus after validation by a council of active members (by vote or consensus, to be determined).
+
 
 
 

@@ -1,52 +1,53 @@
 ---
 layout: default
-title: Règles experimentales
-subtitle: Ces règles sont en phase de test.
-lang: fr
+title: Experimental Rules
+subtitle: These rules are currently in playtesting.
 ---
 
 * TOC
 {:toc}
 
 
-# Cartes actions spéciales
-#### Objectif, pro/cons
-Donner un style particulier à chaque équipe.
-Permettre des actions héroïques.
-#### Règle
-Au début de son tour un coach pioche une carte de son deck.
-Le coach peut jouer les cartes qu’il a en main comme décrit
-A la fin de son tour, un coach ne doit pas avoir plus de 4 cartes en main.
+# Special Action Cards
+#### Objective, pros/cons
+- Gives each team a distinct playstyle and identity.
+- Enables thematic, heroic plays.
+#### Rule
+At the start of their turn, a coach draws one card from their team deck.
+The coach can play cards from their hand as described on each card.
+At the end of their turn, a coach cannot have more than 4 cards in hand.
 
 
-# Pas de brancardier
-#### Objectif, pro/cons
-Créer un effet visuel
-Permet aux équipes nombreuses de créer des obstacles
-Crée des situations plus chaotiques
-Implique de faire la différence entre les joueurs à terre et ko
-#### Règle
-Les joueur ko ne sont pas retiré du terrain. Ils restent à terre jusqu’au prochain touchdown.
+# No Stretcher-Bearers
+#### Objective, pros/cons
+- Creates a compelling visual battlefield effect on the pitch.
+- Allows swarm teams to create tactical obstacles.
+- Generates more chaotic and dynamic situations.
+- Requires distinguishing between prone and KO players.
+#### Rule
+KO players are not removed from the pitch. They remain prone on their space until the next touchdown.
 
 
-# Ramassage coordonné de ballon
-#### Objectif, pro/cons
-Ajoute la tactique de ramasser le ballon avec deux joueurs.
-Règle plus compliquée.
-#### Règle
-SI le joueur actif est uniquement marqué par des joueurs multi-marqué, il n’y a pas besoin de faire un jet d’armure.
+# Coordinated Ball Pickup
+#### Objective, pros/cons
+- Adds a tactical layer for picking up the ball using two cooperating players.
+- Slightly more complex rule.
+#### Rule
+If the active player is marked only by multi-marked opponents, no Armor roll is required to pick up the ball.
 
-# Blocage efficace
-#### Objectif, pro/cons
-Faire ressentir l’écart de force entre deux joueurs.
-Ralentie le jet de dé par la comparaison des caractéristiques des joueurs
-#### Règle
-Lors d’un blocage, le joueur bénéficie d’un modificateur de +1 ou -1 si les valeurs de blocage ont un écart de plus de 2. En cas de réussite, le modificateur opposé s’applique sur le jet d’armure.
-Ex : le bloqueur orc (B 5+) aura +1 s’il tente de bloquer un gobelin (B 8+). Puis le gobelin aura -1 à son test d’armure.
 
-# Terrain improvisé
-#### Objectif, pro/cons
-Crée des situations plus chaotiques
-#### Règle
-Lors d’un match sur un terrain improvisé, il peut rester des obstacles sur le terrain. Traitez les cases concernées comme étant en dehors du plateau de jeu.
- 
+# Impactful Blocking
+#### Objective, pros/cons
+- Emphasizes the difference in physical strength between two players.
+- Slightly slows down the roll by requiring a stat comparison.
+#### Rule
+During a block, the active player receives a +1 or -1 modifier if the difference between the two players' Block values is greater than 2. On a success, the opposite modifier applies to the defender's Armor roll.
+Example: An Orc Blocker (B 5+) gains +1 when blocking a Goblin (B 8+). The Goblin then suffers -1 on their Armor test.
+
+
+# Improvised Pitch
+#### Objective, pros/cons
+- Generates more chaotic and unpredictable match situations.
+#### Rule
+When playing on an improvised pitch, obstacles may be present on the field. Treat the affected spaces as being out of bounds / off the pitch.
+

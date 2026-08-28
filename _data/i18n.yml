@@ -2,6 +2,26 @@ rules:
   en: Rules
   fr: Règles
 
+core_rules:
+  en: Core Rules
+  fr: Règles de base
+
+experimental_rules:
+  en: Experimental Rules
+  fr: Règles expérimentales
+
+teams:
+  en: Teams
+  fr: Équipes
+
+download:
+  en: Download
+  fr: Téléchargement
+
 community:
-  en: community
+  en: Community
   fr: Communauté
+
+governance:
+  en: Governance
+  fr: Gouvernance
