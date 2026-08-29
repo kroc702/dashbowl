@@ -3,8 +3,6 @@ layout: default
 title: Core Rules
 subtitle: The rules presented here are all you need to play your first match
 ---
-current version: v{{site.version}}
-
 * TOC
 {:toc}
 
