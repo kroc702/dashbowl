@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Règles de base
-subtitle: v0.1 - les règles présenté ici suffisent à jouer votre première partie
+subtitle: les règles présenté ici suffisent à jouer votre première partie
 ---
+version courante: v{{site.version}}
+
 * TOC
 {:toc}
 

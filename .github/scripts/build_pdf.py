@@ -4,10 +4,8 @@ from weasyprint import HTML
 
 # Ordre d'assemblage des fichiers Markdown
 FILES = [
-    "docs/index.md",
-    "docs/les-bases.md",
-    "docs/actions.md",
-    "docs/factions.md"
+    "rules/index.md",
+    "team/index.md"
 ]
 
 # CSS de style pour le PDF (A4, typographie, couleurs)
@@ -108,8 +106,8 @@ def generate_pdf():
     """
 
     os.makedirs("output", exist_ok=True)
-    pdf_path = "output/dashbowl_rules.pdf"
-    
+    pdf_path = "download/dashbowl_rules.pdf"
+
     # Generation PDF avec WeasyPrint
     HTML(string=full_html).write_pdf(pdf_path)
     print(f"PDF généré avec succès : {pdf_path}")

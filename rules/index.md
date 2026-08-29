@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Core Rules
-subtitle: v0.1 — The rules presented here are all you need to play your first match
+subtitle: The rules presented here are all you need to play your first match
 ---
+current version: v{{site.version}}
+
 * TOC
 {:toc}
 
@@ -108,7 +110,7 @@ Results:
 - **Success**: The defending player must make an Armor roll. If they had the ball, it bounces:
   - -1 for each player marking the defender.
   - +1 for each player marking the active player.
-  
+
   Armor roll results:
   - **Fumble**: The defender is KO.
   - **Failure**: The defender is knocked down (prone).

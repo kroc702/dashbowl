@@ -32,4 +32,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dashbowl-rules-pdf
-          path: output/dashbowl_rules.pdf
+          path: download/dashbowl_rules.pdf
