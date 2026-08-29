@@ -1,0 +1,18 @@
+<script>
+// Check saved preference in localStorage or fall back to browser language
+let userLang = (function() {
+  try {
+    return localStorage.getItem('dashbowl_lang');
+  } catch(e) {}
+})() || navigator.language || navigator.userLanguage || 'en';
+userLang = userLang.replace(/-.*/,'');
+
+// supported lang
+const urls = {
+    'fr': '{{ site.baseurl }}/fr/'
+};
+if('{{page.lang}}' !== userLang && urls[userLang]) {
+    let targetUrl = urls[userLang] ?? '{{ site.baseurl }}/';
+    window.location.href = targetUrl;
+}
+</script>
