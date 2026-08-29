@@ -20,6 +20,7 @@ Un ballon et deux équipes (figurines, fiche d’équipe et éventuellement un d
 #### Les équipes
 La fiche d’équipe est la description de l’équipe donnant le nombre de joueur à chaque poste ainsi que leur caractéristique.
  Chaque joueur à les caractéristiques suivante :
+
 - **Poste** : le type de joueur, la figurine doit permettre de distinguer le poste du joueur. Le poste peut avoir un impact sur certaine cartes ou talent d’équipe.
 - **Mouvement** (M [3-9]) : plus que le nombre de case de déplacement, cela correspond au nombre d’action possible lors d’une activation. Certaines actions demandes plusieurs points de mouvement.
 - **Lancer** (L [4-10+]) : la capacité du joueur à effectuer une passe.
@@ -68,12 +69,14 @@ Déplacer le joueur libre d'une case.
 
 #### Passe (joueur libre - Une seule par tour par équipe, 1M + jet de lancer)
 Un joueur libre peu utiliser 1M pour tenter une action de passe sur un coéquipier receveur.
+
 - 1 case & receveur libre : réussite automatique
 - <= 4 cases : jet de lancer
 - <= 8 cases : jet de lancer -1
 - Receveur marqué : -1 par marquage
 
 Résultat:
+
 -	Maladresse : Le ballon rebondi autour du lanceur. Turnover.
 -	Echec : Le ballon rebondi autour de la cible. Le joueur actif et le receveur ne peuvent plus être activé ce tour ci
 -	Réussite : Le ballon arrive dans les mains du receveur
@@ -128,5 +131,6 @@ Un nouvel engagement a lieu comme au tour 0. L’équipe venant de marquer est d
 
 ## Fin de partie
 Les conditions de fin de partie doivent être précisé. Deux options possibles :
+
 - la partie peut s’arrêter après 12 tours complet.
 - la partie peut s’arrêter dès qu’une équipe marque 3 touchdown.

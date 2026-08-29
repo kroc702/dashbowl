@@ -23,13 +23,24 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y weasyprint
-          pip install markdown weasyprint
+          pip install markdown weasyprint python-frontmatter
 
+      - name: Generate html with Python script
+        run: python .github/scripts/md2html.py en
       - name: Generate PDF with Python script
-        run: python .github/scripts/build_pdf.py
+        run: python .github/scripts/html2pdf.py release/dashbowl_en
+      - name: Generate fr html with Python script
+        run: python .github/scripts/md2html.py fr
+      - name: Generate fr PDF with Python script
+        run: python .github/scripts/html2pdf.py release/dashbowl_fr
 
-      - name: Upload PDF Artifact
+      - name: Upload en PDF Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dashbowl-rules-pdf
-          path: download/dashbowl_rules.pdf
+          name: dashbowl-en
+          path: release/dashbowl_en.pdf
+      - name: Upload fr PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashbowl-fr
+          path: release/dashbowl_fr.pdf

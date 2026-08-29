@@ -10,7 +10,7 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 * TOC
 {:toc}
 
-# Humains
+## Humains
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
@@ -19,7 +19,7 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Receveur	       | 8	| 7+ | 8+ | 8+ |
 |Blitzer	       | 7	| 7+ | 6+ | 7+ |
 
-# Elf
+## Elf
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
@@ -29,7 +29,7 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Blitzer	       | 7	| 6+ | 6+ | 7+ |
 
 
-# Nain
+## Nain
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
@@ -38,7 +38,7 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Tueur de troll    | 5	| 9+ | 6+ | 8+ |
 |Blitzer	       | 5	| 7+ | 6+ | 7+ |
 
-# Orc
+## Orc
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
@@ -47,14 +47,14 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Bloqueur	       | 5	| 10+| 5+ | 5+ |
 |Blitzer	       | 6	| 8+ | 6+ | 5+ |
 
-# Gobelin
+## Gobelin
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
 |Gobelin      (3)  | 7	| 7+ | 8+ | 9+ |
 |Troll  	       | 4	| 9+ | 4+ | 4+ |
 
-# Scaven
+## Scaven
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
