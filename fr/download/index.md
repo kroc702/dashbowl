@@ -16,7 +16,7 @@ Un ballon et deux équipes (figurines, fiche d’équipe et éventuellement un d
 Voila a quoi cela peut ressembler.
 
 ## Les règles en PDF
-**[première release]({{githuburl}}/releases/download/v0.1/dashbowl_fr.pdf)**
+**[première release]({{site.githuburl}}/releases/download/v0.1/dashbowl_fr.pdf)**
 
 ## Télécharger le plateau de jeu Hexagonal
 - 📄 **[6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A4.pdf)**

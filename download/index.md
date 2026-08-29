@@ -16,7 +16,7 @@ A ball and two teams (miniatures, team roster sheets, and optionally an action d
 Here is what a setup can look like.
 
 ## Rules
-**[initial release]({{githuburl}}/releases/download/v0.1/dashbowl_en.pdf)**
+**[initial release]({{site.githuburl}}/releases/download/v0.1/dashbowl_en.pdf)**
 
 ## Download the Hexagonal Pitch
 - 📄 **[6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A4.pdf)**
