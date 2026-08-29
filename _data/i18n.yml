@@ -25,3 +25,15 @@ community:
 governance:
   en: Governance
   fr: Gouvernance
+
+footer_licensed_under:
+  en: Licensed under
+  fr: Sous licence
+
+footer_hosted_by:
+  en: hosted on
+  fr: hébergé par
+
+footer_suggest_edit:
+  en: Suggest a change for this page.
+  fr: Proposer une modification sur cette page.

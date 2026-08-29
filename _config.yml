@@ -11,7 +11,7 @@ githuburl: 'https://github.com/kroc702/dashbowl'
 
 plugins:
 - jekyll-sitemap
-- jekyll-last-modified-at
+# - jekyll-last-modified-at unfortunately don't work in github
 
 defaults:
 - scope:
