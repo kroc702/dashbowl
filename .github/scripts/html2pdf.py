@@ -1,6 +1,7 @@
 import os
 import markdown
 from weasyprint import HTML
+import sys
 
 def generate_pdf():
     file = '';
