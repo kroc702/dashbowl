@@ -23,7 +23,7 @@ La fiche d’équipe est la description de l’équipe donnant le nombre de joue
 
 - **Poste** : le type de joueur, la figurine doit permettre de distinguer le poste du joueur. Le poste peut avoir un impact sur certaine cartes ou talent d’équipe.
 - **Mouvement** (M [3-9]) : plus que le nombre de case de déplacement, cela correspond au nombre d’action possible lors d’une activation. Certaines actions demandes plusieurs points de mouvement.
-- **Lancer** (L [4-10+]) : la capacité du joueur à effectuer une passe.
+- **Lancer** (L [4-10+]) : la capacité du joueur à effectuer une passe ou attraper le ballon.
 - **Blocage** (B [4-10+]) : la capacité du joueur à bloquer ou tacler un joueur adverse.
 - **Armure** (A [4-10+]) : représente aussi sa masse et son agilité. La capacité du joueur à rester debout suite à un blocage.
 
@@ -39,6 +39,7 @@ Ensuite chaque équipe/coach jouent à tour de role en activant leur joueur un p
 - **Joueur libre** : un joueur debout qui n'a aucun joueur debout de l’équipe adverse adjacent
 - **Joueur marqué** : un joueur debout qui a au moins un joueur debout de l’équipe adverse adjacent
 - **Joueur multi-marqué** : un joueur marqué qui a au moins deux joueurs debout de l’équipe adverse adjacent
+- **Soutiens**: les soutiens d'un joueur sont ses coéquipiés debout et adjacent
 - **Joueur à terre** : Un joueur à terre ne peut que se relever lors de son activation.
 Un joueur mis à terre doit immédiatement lâcher le ballon (cf rebondit)
 - **Joueur ko** : retiré du plateau jusqu’au prochain touchdown
@@ -86,7 +87,7 @@ Si pendant son activation, un joueur libre ou marqué ce trouve sur la même cas
 
 S’il ne le fait pas, le ballon rebondi.
 
-Si le joueur est marqué, il doit faire un jet d’armure (-1 par joueur supplémentaire le marquant)
+Si le joueur est marqué, il doit faire un jet de passe (-1 par joueur supplémentaire le marquant)
 -	Maladresse : le joueur actif est à terre. Le ballon rebondit. Turnover.
 -	Echec : Le ballon rebondit. Fin de l’activation.
 -	Réussite : Le ballon est dans les mains du joueur actif.
@@ -94,33 +95,43 @@ Si le joueur est marqué, il doit faire un jet d’armure (-1 par joueur supplé
 #### Esquiver (joueur marqué - 2M)
 Déplacer le joueur marqué d'une case.
 
-A moins qu’il ne soit marqué uniquement par des joueurs multi-marqué, le joueur doit faire un jet d’armure avec -1 par joueur supplémentaire le marquant.
--	Maladresse : Le joueur est à terre. Turnover.
--	Echec : Le joueur est à terre.
--	Réussite : Le joueur est debout et peut continuer sont activation normalement.
+Lors qu'une esquive, le joueur défenseur (au choix du coach défenseur) à la possibilité de faire un blocage avant le déplacement (cf blocage pour les modificateurs).
+
+En cas d'echec ou maladresse du défenseur, le joueur actif peut effectuer sont déplacement normalement.
+
+En cas de réussite, le joueur actif devra lancer un jet d'armure:
+-	Maladresse: Le joueur actif est à terre. Turnover.
+-	Échec: Le joueur actif est à terre.
+-	Réussite: le joueur actif peut effectuer sont déplacement normalement.
 
 #### Blocage (joueur marqué - 2M + jet de blocage)
 Un joueur marqué peu utiliser 2 points de mouvements pour tenter de bloquer un joueur adverse qu’il marque.
 Le coach du joueur actif doit faire un jet de blocage avec les modificateurs suivants :
-- +1 pour chaque joueur marquant le défenseur.
-- -1 pour chaque joueur marquant le joueur actif.
+- +1 pour chaque marquage sur le défenseur et chaque soutient du joueur actif.
+- -1 pour chaque soutient du défenseur et chaque marquage du joueur actif.
+Attention, un joueur ne donne qu'un seul modificateur. ie s'il soutient le joueur actif et marque le défenseur on ne compte que +1.
 
 Resultat:
 -	Maladresse : le joueur actif est à terre. Turnover.
 -	Échec : rien ne se passe. L’activation du joueur actif prend fin.
 -	Réussite, le joueur défenseur doit faire un jet d’armure, s’il avait le ballon, celui-ci rebondi :
-    - -1 pour chaque joueur marquant le défenseur.
-    - +1 pour chaque joueur marquant le joueur actif.
+    On garde l'opposé du modificateur calculé pour le jet de blocage.
 
     Resutat:
     -	Maladresse, le défenseur est KO
     -	Échec, le défenseur est à terre
-    -	Réussite, le coach du joueur actif choisi de déplacer le joueur défenseur sur l’une des 3 cases vide opposé. Si ce n’est pas   possible, le défenseur est à terre.
-    Le joueur actif peut se déplacer gratuitement sur la case précédemment occupé par le joueur défenseur.
+    -	Réussite, le coach du joueur actif choisi de déplacer le joueur défenseur sur l’une des 3 cases vide opposé. Si ce n’est pas   possible il doit déplacer un soutient d'une case pour le permettre. Si ce n'est toujours pas possible, le défenseur est à terre.
+    Le joueur actif peut se déplacer gratuitement sur la case précédemment occupé par le joueur défenseur. Un soutient peut se déplacer gratuitement sur la case précédemment occupé par le joueur actif.
+
+### Mélée (2M + jet de blocage)
+Un joueur en soutient d'un joueur marqué peut effectuer un blocage de mélée.
+
+L'action se résoult comme un blocage normal sauf que le joueur attaquant sera celui qui est au contact du joueur défenseur. On utilise quand même la caractéristique de blocage du joueur actif, c'est lui qui sera mis à terre en cas de maladresse.
+
 
 #### Se relever (joueur à terre - action unique)
 Un joueur à terre (pas ko) au début du tour peut se relever. Il ne peut faire aucune autre action pendant son activation.
-S’il est marqué, il doit faire un jet d’armure.
+S’il est marqué, il doit faire un jet d’armure (-1 par joueur supplémentaire le marquant).
 -	Maladresse : le joueur est KO. Turnover.
 -	Echec : Le joueur reste à terre.
 -	Réussite : Le joueur est debout.
@@ -130,7 +141,4 @@ Dès qu’un joueur en possession du ballon se trouve dans la zone de touchdown 
 Un nouvel engagement a lieu comme au tour 0. L’équipe venant de marquer est désormais l’équipe en défense.
 
 ## Fin de partie
-Les conditions de fin de partie doivent être précisé. Deux options possibles :
-
-- la partie peut s’arrêter après 12 tours complet.
-- la partie peut s’arrêter dès qu’une équipe marque 3 touchdown.
+La partie s'arrête dès qu'une équipe à marqué 2 touchdowns ou après 15 tours complet.
