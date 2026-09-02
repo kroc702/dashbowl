@@ -10,7 +10,7 @@ You can also try playing on a Blood Bowl Sevens or Blitz Bowl pitch; in that cas
 A D12 die.
 You can also try using 2xD6 for test rolls and a D6 for scatters.
 
-A ball and two teams (miniatures, team roster sheets, and optionally an action deck if you are testing that rule).
+A ball (any token would do the trick) and two teams (miniatures, team roster sheets, and optionally an action deck if you are testing that rule).
 
 ![Game board]({{ site.baseurl }}/images/photo_board.jpg)
 Here is what a setup can look like.
@@ -19,8 +19,17 @@ Here is what a setup can look like.
 **[initial release]({{site.githuburl}}/releases/download/v0.1/dashbowl_en.pdf)**
 
 ## Download the Hexagonal Pitch
-- 📄 **[6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A4.pdf)**
-- 📄 **[3 pages A3 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A3.pdf)**
+- 📄 **[Grass color pitch - 6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20grass%20A4.pdf)**
+- 📄 **[Grass color pitch - 3 pages A3 (PDF)]({{ site.baseurl }}/download/board%20grass%20A3.pdf)**
+
+- 📄 **[Stone black and white pitch - 6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A4.pdf)**
+- 📄 **[Stone black and white pitch - 3 pages A3 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A3.pdf)**
+
+## Paper minis
+If you don't have miniatures, you can print paper mini
+- [dwarf]({{ site.baseurl }}/download/paper%20mini%20dwarf.pdf)
+- [orc]({{ site.baseurl }}/download/paper%20mini%20orc.pdf)
+3D printed support: (https://www.thingiverse.com/thing:5175933/files)
 
 ## Team Decks (Experimental Rules)
 - 📄 **[Download Team Decks (PDF)]({{ site.baseurl }}/download/team%20experimental%20deck.pdf)**

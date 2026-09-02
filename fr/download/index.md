@@ -19,8 +19,17 @@ Voila a quoi cela peut ressembler.
 **[première release]({{site.githuburl}}/releases/download/v0.1/dashbowl_fr.pdf)**
 
 ## Télécharger le plateau de jeu Hexagonal
-- 📄 **[6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A4.pdf)**
-- 📄 **[3 pages A3 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A3.pdf)**
+- 📄 **[terrain herbeux couleur - 6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20grass%20A4.pdf)**
+- 📄 **[terrain herbeux couleur - 3 pages A3 (PDF)]({{ site.baseurl }}/download/board%20grass%20A3.pdf)**
+
+- 📄 **[terrain en pierre noir et blanc - 6 pages A4 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A4.pdf)**
+- 📄 **[terrain en pierre noir et blanc - 3 pages A3 (PDF)]({{ site.baseurl }}/download/board%20stone%20WB%20A3.pdf)**
+
+## Paper minis
+SI vous n'avez pas de figurine, vous pouvez les imprimer en papier
+- [nain]({{ site.baseurl }}/download/paper%20mini%20dwarf.pdf)
+- [orc]({{ site.baseurl }}/download/paper%20mini%20orc.pdf)
+support imprimé en 3D: (https://www.thingiverse.com/thing:5175933/files)
 
 ## Les decks d'équipe (règles expérimental)
 - 📄 **[Télécharger les Decks d'Équipe (PDF)](team%20experimental%20deck.pdf)**
