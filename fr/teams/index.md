@@ -19,7 +19,9 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Receveur	       | 8	| 7+ | 8+ | 8+ |
 |Blitzer	       | 7	| 7+ | 6+ | 7+ |
 
-## Elf
+pas de comptétence particulière
+
+## Elfes
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
@@ -28,8 +30,9 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Receveur	       | 8	| 6+ | 8+ | 9+ |
 |Blitzer	       | 7	| 6+ | 6+ | 7+ |
 
+compétences: en cas d'échecs sur une récupération de ballon ou une esquive, le joueur actif n'est pas mis à terre.
 
-## Nain
+## Nains
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
@@ -38,7 +41,9 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Tueur de troll    | 5	| 9+ | 6+ | 8+ |
 |Blitzer	       | 5	| 7+ | 6+ | 7+ |
 
-## Orc
+compétences: si, en tant que défenseur le joueur réussi son jet d'armure, il ne recule pas et ne lache pas le ballon.
+
+## Orcs
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
@@ -47,14 +52,16 @@ une petite présentation, le detail des cartes et quelques photo de figurine !
 |Bloqueur	       | 5	| 10+| 5+ | 5+ |
 |Blitzer	       | 6	| 8+ | 6+ | 5+ |
 
-## Gobelin
+compétences: après un blocage, le joueur doit réaliser un blocage. ce blocage ne lui coûte aucun point de mouvement suplémentaire.
+
+## Gobelins
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|
 |Gobelin      (3)  | 7	| 7+ | 8+ | 9+ |
 |Troll  	       | 4	| 9+ | 4+ | 4+ |
 
-## Scaven
+## Scavens
 
 |Poste	           | M	| L	 | B  | A  |
 |------------------|----|----|----|----|

@@ -123,7 +123,7 @@ Resultat:
     -	Réussite, le coach du joueur actif choisi de déplacer le joueur défenseur sur l’une des 3 cases vide opposé. Si ce n’est pas   possible il doit déplacer un soutient d'une case pour le permettre. Si ce n'est toujours pas possible, le défenseur est à terre.
     Le joueur actif peut se déplacer gratuitement sur la case précédemment occupé par le joueur défenseur. Un soutient peut se déplacer gratuitement sur la case précédemment occupé par le joueur actif.
 
-### Mélée (2M + jet de blocage)
+#### Mélée (2M + jet de blocage)
 Un joueur en soutient d'un joueur marqué peut effectuer un blocage de mélée.
 
 L'action se résoult comme un blocage normal sauf que le joueur attaquant sera celui qui est au contact du joueur défenseur. On utilise quand même la caractéristique de blocage du joueur actif, c'est lui qui sera mis à terre en cas de maladresse.
